@@ -1,0 +1,36 @@
+item { 
+	name:'D20'
+	id:1
+}
+item { 
+	name:'D40'
+	id:2
+}
+item { 
+	name:'D44'
+	id:3
+}
+item { 
+	name:'D00'
+	id:4
+}
+item { 
+	name:'D43'
+	id:5
+}
+item { 
+	name:'D01'
+	id:6
+}
+item { 
+	name:'D10'
+	id:7
+}
+item { 
+	name:'D50'
+	id:8
+}
+item { 
+	name:'D11'
+	id:9
+}
