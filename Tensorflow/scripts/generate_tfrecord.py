@@ -81,9 +81,10 @@ def xml_to_csv(path):
         root = tree.getroot()
         if len(root.findall("object")) != 0:
             for member in root.findall('object'):
+                size = root.find('size')
                 value = (root.find('filename').text,
-                        int(root.find('size')[1].text),
-                        int(root.find('size')[2].text),
+                        int(size.find('width').text),
+                        int(size.find('height').text),
                         member.find('name').text,
                         int(member.find('bndbox')[0].text),
                         int(member.find('bndbox')[1].text),
